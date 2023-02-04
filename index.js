@@ -40,6 +40,10 @@ const generateReadMe = (data) => {
    
    ## Questions
    
+   http://github.com/${data.userName}
+
+   ${data.email}
+
    ${data.questions}`
 
 }
@@ -83,13 +87,25 @@ inquirer
       message: 'Are there questions for future development?',
     },
     {
+        type: 'input',
+        name: 'userName',
+        message: 'What is your github username?',
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+      },
+    {
       type: 'list',
       name: 'license',
       message: 'Choose a license',
       choices: ["Alpha", "MIT", "Three"],
     },
+    
   ])
   .then((answers) => {
+    
     const readMePageContent = generateReadMe(answers);
 
     fs.writeFileSync('README.md', readMePageContent, (err) =>
