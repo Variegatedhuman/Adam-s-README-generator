@@ -107,4 +107,4 @@ const generateReadMe = (data) => {
    
 
 
-module.exports = markdownGenerator;
+module.exports = generateReadMe;

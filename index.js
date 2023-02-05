@@ -64,11 +64,15 @@ inquirer
     
     const readMePageContent = generateReadMe(answers);
 
-    fs.writeFileSync('README.md', readMePageContent, (err) =>
+    fs.writeFile('README.md', readMePageContent, markdownGenerator(data), (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
 
     );
   });
+
+  function init(){
+    
+  }
 
   init();
 
