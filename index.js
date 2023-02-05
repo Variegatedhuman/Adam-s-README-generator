@@ -56,7 +56,7 @@ inquirer
       type: 'list',
       name: 'license',
       message: 'Choose a license',
-      choices: ["Alpha", "MIT", "Three"],
+      choices: ["Apache 2.0", "MIT", "Boost Software License 1.0", "BSD 3-Clause License"],
     },
     
   ])
@@ -71,10 +71,16 @@ inquirer
   });
 
   function init(){
-    
+    function promptDisplay () {
+      return inquirer.prompt(questions)
+      };
+      promptDisplay()
+    .then((answers) => writeToFile(answers))
+    .then(() => console.log("Successfully created README.md"))
+    .catch((err) => console.log(err));
   }
 
-  init();
+  // init();
 
 //   GIVEN a command-line application that accepts user input
 // WHEN I am prompted for information about my application repository
