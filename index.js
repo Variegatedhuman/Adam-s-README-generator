@@ -1,53 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const markdownGenerator = require('./utils/markdownGenerator');
 
-const generateReadMe = (data) => {
-   return `# ${data.title}
-   
-   ## Description
-   
-   ${data.description}
-   
-   ## Table of Contents
 
-   * [Installation](#Installation) 
-   
-   * [Usage](#Usage)
-   
-   * [Contributing](#Contributing)
-   
-   * [Tests](#Tests)
-   
-   * [Questions](#Questions)
-   
-   ## Installation
-   
-   To install this application run the folllowing command
-   
-   ${data.installation}
-   
-   ## Usage
-   
-   ${data.usage}
-   
-   ## Contibutions
-   
-   ${data.contributing}
-   
-   ## Tests
-   
-   ${data.tests}
-   
-   ## Questions
-   
-   http://github.com/${data.userName}
 
-   ${data.email}
-
-   ${data.questions}`
-
-}
-  
 
 inquirer
   .prompt([
@@ -110,8 +66,11 @@ inquirer
 
     fs.writeFileSync('README.md', readMePageContent, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
+
     );
   });
+
+  init();
 
 //   GIVEN a command-line application that accepts user input
 // WHEN I am prompted for information about my application repository
