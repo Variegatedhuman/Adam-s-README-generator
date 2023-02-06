@@ -38,11 +38,6 @@ inquirer
       message: 'What sort of tests are you running for your code?',
     },
     {
-      type: 'input',
-      name: 'questions',
-      message: 'Are there questions for future development?',
-    },
-    {
         type: 'input',
         name: 'userName',
         message: 'What is your github username?',
@@ -64,12 +59,12 @@ inquirer
     
     const readMePageContent = generateReadMe(answers);
 
-    fs.writeFile('README.md', readMePageContent, (err) =>
+    fs.writeFile('./assets/README.md', readMePageContent, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
 
     );
   });
-  
+
 //   GIVEN a command-line application that accepts user input
 // WHEN I am prompted for information about my application repository
 // THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions

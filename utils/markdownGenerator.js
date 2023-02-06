@@ -58,7 +58,7 @@ ${renderLicenseBadge(data.license)}
     
 ## Description
     
-    ${data.description}
+${data.description}
     
 ## Table of Contents
  
@@ -98,11 +98,9 @@ ${data.tests}
     
 ## Questions
     
-http://github.com/${data.userName}
+[My github](http://github.com/${data.userName})
  
-${data.email}
- 
-${data.questions}`
+[${data.email}](${data.email})`
  
  }
    
