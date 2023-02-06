@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const markdownGenerator = require('./utils/markdownGenerator');
+const generateReadMe = require("./utils/markdownGenerator");
 
 
 
@@ -64,24 +64,12 @@ inquirer
     
     const readMePageContent = generateReadMe(answers);
 
-    fs.writeFile('README.md', readMePageContent, markdownGenerator(data), (err) =>
+    fs.writeFile('README.md', readMePageContent, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
 
     );
   });
-
-  function init(){
-    function promptDisplay () {
-      return inquirer.prompt(questions)
-      };
-      promptDisplay()
-    .then((answers) => writeToFile(answers))
-    .then(() => console.log("Successfully created README.md"))
-    .catch((err) => console.log(err));
-  }
-
-  // init();
-
+  
 //   GIVEN a command-line application that accepts user input
 // WHEN I am prompted for information about my application repository
 // THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions

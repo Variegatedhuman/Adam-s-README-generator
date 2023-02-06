@@ -53,58 +53,59 @@ function renderLicenseText(data) {
 const generateReadMe = (data) => {
     return `# ${data.title}
 
-    ${renderLicenseBadge(data.license)}
+
+${renderLicenseBadge(data.license)}
     
-    ## Description
+## Description
     
     ${data.description}
     
-    ## Table of Contents
+## Table of Contents
  
-    * [Installation](#Installation) 
+* [Installation](#Installation) 
     
-    * [Usage](#Usage)
+* [Usage](#Usage)
     
-    * [Contributing](#Contributing)
+* [Contributing](#Contributing)
     
-    * [Tests](#Tests)
+* [Tests](#Tests)
     
-    * [Questions](#Questions)
+* [Questions](#Questions)
     
-    ## Installation
+## Installation
     
-    To install this application run the folllowing command
+To install this application run the folllowing command
     
-    ${data.installation}
+${data.installation}
     
-    ## Usage
+## Usage
     
-    ${data.usage}
+${data.usage}
 
-    ## License
+## License
 
-    ${renderLicenseText(data.license)}
+${renderLicenseText(data.license)}
 
-    ${renderLicenseLink(data.license)}
+${renderLicenseLink(data.license)}
     
-    ## Contibutions
+## Contibutions
     
-    ${data.contributing}
+${data.contributing}
     
-    ## Tests
+## Tests
     
-    ${data.tests}
+${data.tests}
     
-    ## Questions
+## Questions
     
-    http://github.com/${data.userName}
+http://github.com/${data.userName}
  
-    ${data.email}
+${data.email}
  
-    ${data.questions}`
+${data.questions}`
  
  }
    
 
 
-module.exports = {generateReadMe};
+module.exports = generateReadMe;
