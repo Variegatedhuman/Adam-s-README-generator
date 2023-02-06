@@ -20,10 +20,13 @@ The goal of this project was to create a generator that would produce high quali
 
 Below is a screenshot of an example README.md file that can be created using this generator
 
+![Screenshot](assets/samplerREADME.png)
+
 ## Video
 
 Below is an instructional video on how to use the application
 
+![Video](assets/Example video.webm)
     
 ## Usage
     
