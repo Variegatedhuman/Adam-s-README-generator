@@ -26,7 +26,7 @@ Below is a screenshot of an example README.md file that can be created using thi
 
 Below is an instructional video on how to use the application
 
-![Video](assets/Example video.webm)
+![Video](assets/Examplevideo.webm)
     
 ## Usage
     
