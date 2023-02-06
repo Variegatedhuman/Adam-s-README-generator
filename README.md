@@ -1,52 +1,41 @@
-# f
+# Adam's README Generator
 
-
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-    
 ## Description
+
+The goal of this project was to create a generator that would produce high quality README.md files for users
     
-    f
-    
-## Table of Contents
- 
-* [Installation](#Installation) 
+## Table of Contents 
+
+* [Screenshot](#Screenshot)
+
+* [Video](#Video)
     
 * [Usage](#Usage)
     
 * [Contributing](#Contributing)
     
-* [Tests](#Tests)
-    
 * [Questions](#Questions)
     
-## Installation
-    
-To install this application run the folllowing command
-    
-f
+## Screenshot
+
+Below is a screenshot of an example README.md file that can be created using this generator
+
+## Video
+
+Below is an instructional video on how to use the application
+
     
 ## Usage
     
-f
+There are no limitations for the use of this application
 
-## License
-
-For this project the Apache 2.0 license was utilized
-
-https://opensource.org/licenses/Apache-2.0
     
 ## Contibutions
     
-f
+Great thanks to my TA's, my tutor Matthew Calimbas, and Danielle Torrisè
     
-## Tests
-    
-f
-    
+
 ## Questions
     
-http://github.com/f
- 
-f
- 
-f
+If you have any comments/questions or you're interested in checking out any of my other projects, visit [My github](http://github.com/Variegatedhuman)
+
