@@ -1,11 +1,11 @@
-# d
+# DuckHunter
 
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
     
 ## Description
     
-    d
+An application for hunting Ducks
     
 ## Table of Contents
  
@@ -21,30 +21,33 @@
     
 ## Installation
     
-To install this application run the folllowing command
+To install this application run the folllowing command:
     
-d
+Users can download this application from my github (listed below).
     
 ## Usage
     
-d
+This applcation was the following usage limitations:
+
+No profiteering off of this application.
 
 ## License
 
-For this project the Apache 2.0 license was utilized
+This project utilized the For this project the Boost Software License 1.0 license was utilized license. 
 
-https://opensource.org/licenses/Apache-2.0
+More information about this license is available at https://www.boost.org/LICENSE_1_0.txt.
     
 ## Contibutions
     
-d
+These individuals were involved in the development of this project:
+
+My family, my tutors, and Phil from the corner store. 
     
 ## Tests
     
-d
+In order to test the the application, type this into the command line - NPM test is a good start. 
     
 ## Questions
-    
-[My github](http://github.com/d)
+  
+If you have any questions or comments please contact me at [Polonium@gmail.com](Polonium@gmail.com). If you're interested in checking out any of my other projects, visit [My github](http://github.com/Variegatedhuman).
  
-[d](d)

@@ -29,7 +29,7 @@ inquirer
     },
     {
       type: 'input',
-      name: 'contributing',
+      name: 'contributions',
       message: 'Who would you like to recognize for contributing to this project?',
     },
     {

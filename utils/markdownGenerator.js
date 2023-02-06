@@ -74,33 +74,37 @@ ${data.description}
     
 ## Installation
     
-To install this application run the folllowing command
+To install this application run the folllowing command:
     
 ${data.installation}
     
 ## Usage
     
+This applcation was the following usage limitations:
+
 ${data.usage}
 
 ## License
 
-${renderLicenseText(data.license)}
+This project utilized the ${renderLicenseText(data.license)} license. 
 
-${renderLicenseLink(data.license)}
+More information about this license is available at ${renderLicenseLink(data.license)}.
     
 ## Contibutions
     
-${data.contributing}
+These individuals were involved in the development of this project:
+
+${data.contributions}
     
 ## Tests
     
-${data.tests}
+In order to test the the application, type this into the command line - ${data.tests}
     
 ## Questions
-    
-[My github](http://github.com/${data.userName})
+  
+If you have any questions or comments please contact me at [${data.email}](${data.email}). If you're interested in checking out any of my other projects, visit [My github](http://github.com/${data.userName}).
  
-[${data.email}](${data.email})`
+`
  
  }
    
