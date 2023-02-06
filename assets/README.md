@@ -1,11 +1,11 @@
-# DuckHunter
+# Example Project Name
 
 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
 ## Description
     
-An application for hunting Ducks
+Description of Project
     
 ## Table of Contents
  
@@ -23,31 +23,31 @@ An application for hunting Ducks
     
 To install this application run the folllowing command:
     
-Users can download this application from my github (listed below).
+Downloaded from github and deployed through the command line
     
 ## Usage
     
 This applcation was the following usage limitations:
 
-No profiteering off of this application.
+None
 
 ## License
 
-This project utilized the For this project the Boost Software License 1.0 license was utilized license. 
+This project utilized the For this project the MIT license was utilized license. 
 
-More information about this license is available at https://www.boost.org/LICENSE_1_0.txt.
+More information about this license is available at https://opensource.org/licenses/MIT.
     
 ## Contibutions
     
 These individuals were involved in the development of this project:
 
-My family, my tutors, and Phil from the corner store. 
+Thank you to my tutors
     
 ## Tests
     
-In order to test the the application, type this into the command line - NPM test is a good start. 
+In order to test the the application, type this into the command line - None
     
 ## Questions
   
-If you have any questions or comments please contact me at [Polonium@gmail.com](Polonium@gmail.com). If you're interested in checking out any of my other projects, visit [My github](http://github.com/Variegatedhuman).
+If you have any questions or comments please contact me at [Example email](Example email). If you're interested in checking out any of my other projects, visit [My github](http://github.com/Example github name).
  
